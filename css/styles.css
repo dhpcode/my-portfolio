@@ -1,0 +1,164 @@
+html {
+	box-sizing: border-box;
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+/* fonts */
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/') format('woff2'),
+        url('../fonts/BebasNeue-Regular.woff') format('woff'),
+        url('../fonts/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-SemiBold.woff2') format('woff2'),
+        url('../fonts/Manrope-SemiBold.woff') format('woff'),
+        url('../fonts/Manrope-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-Bold.woff2') format('woff2'),
+        url('../fonts/Manrope-Bold.woff') format('woff'),
+        url('../fonts/Manrope-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-Regular.woff2') format('woff2'),
+        url('../fonts/Manrope-Regular.woff') format('woff'),
+        url('../fonts/Manrope-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('../fonts/Inter18pt-Medium.woff2') format('woff2'),
+        url('../fonts/Inter18pt-Medium.woff') format('woff'),
+        url('../fonts/Inter18pt-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff'),
+        url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-Medium.woff2') format('woff2'),
+        url('../fonts/Manrope-Medium.woff') format('woff'),
+        url('../fonts/Manrope-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Manrope, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	background-color: #fff;
+	color: #222;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* VISUALLY-HIDDEN */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+/* AUTOFILL COLORS
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border-color: transparent;
+  -webkit-text-fill-color: inherit;
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+  transition: background-color 5000s ease-in-out 0s;
+}  */
+
+/* PLACEHOLDER COLOR
+::-webkit-input-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder,
+:-moz-placeholder {
+  color: rgba(52, 49, 61, 0.5);
+}  */
+
+/* CONTAINER */
+
+.container {
+	width: 100%;
+	max-width: 1480px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* MAIN CONTENT */
+.main-content {
+	flex-grow: 1;
+}
+
+/* RETINA BACKGROUNDS */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min--moz-device-pixel-ratio: 2),
+	only screen and (-o-min-device-pixel-ratio: 2/1),
+	only screen and (min-device-pixel-ratio: 2),
+	only screen and (min-resolution: 192dpi),
+	only screen and (min-resolution: 2dppx) {
+}
