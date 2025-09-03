@@ -183,11 +183,11 @@ select:-webkit-autofill:focus {
 }
 
 .site-header__name:hover {
-    opacity: 0.8;
+	opacity: 0.8;
 }
 
 .site-header__name:active {
-    opacity: 0.6;
+	opacity: 0.6;
 }
 
 .sitenav__list {
@@ -221,5 +221,96 @@ select:-webkit-autofill:focus {
 
 .sitenav__link:active {
 	opacity: 0.6;
-    transform: translateY(2px);
+	transform: translateY(2px);
+}
+
+/* Hero section */
+
+.hero__container {
+	display: flex;
+	align-items: center;
+	gap: 80px;
+	padding: 30px 108px 80px;
+	background-color: #0a0a0a;
+	color: #c7c7c7;
+}
+.hero__content {
+}
+.hero__title {
+	font-family: "Bebas Neue";
+	font-size: 101px;
+	color: #fff;
+	line-height: 90%;
+	margin-top: 0;
+	margin-bottom: 8px;
+}
+.hero__text {
+	font-family: Manrope, sans-serif;
+	font-size: 18px;
+	line-height: 150%;
+}
+
+.hero__actions {
+	display: flex;
+	gap: 16px;
+	align-items: center;
+}
+.hero__actions--contact {
+    width: 165px;
+    height: 54px;
+	font-weight: bold;
+	color: #0a0a0a;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 0%;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+	padding: 19px 24px;
+	background-color: #d3e97a;
+	border-radius: 32px;
+    border: 2px solid transparent;
+    user-select: none;
+}
+
+.hero__actions--contact:hover {
+    border: 2px solid #d3e97a;
+    background-color: transparent;
+    color: #d3e97a;
+}
+
+.hero__actions--contact:active {
+	transform: translateY(2px);
+}
+.hero__actions--contact:hover .actions-contact-dot {
+    background-color: #d3e97a;
+}
+.actions-contact-dot {
+	display: inline-block;
+	width: 13px;
+	height: 13px;background-color: #0a0a0a;
+    border-radius: 50%;
+
+}
+.hero__actions--linkedin, .hero__actions--github {
+	display: block;
+	color: #222;
+}
+.hero__actions--linkedin:hover, .hero__actions--github:hover {
+	color: #d3e97a;
+}
+
+.hero__actions--linkedin:hover svg path, .hero__actions--github:hover svg path {
+	fill: #222;
+}
+.hero__actions--linkedin:active,.hero__actions--github:active {
+	transform: translateY(2px);
+
+.hero__actions--github {
+}
+
+.hero-image {
+	width: 600px;
+	height: 700px;
+	border-radius: 8px;
 }
