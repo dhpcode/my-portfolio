@@ -303,14 +303,13 @@ select:-webkit-autofill:focus {
 .hero__actions--linkedin:hover svg path, .hero__actions--github:hover svg path {
 	fill: #222;
 }
-.hero__actions--linkedin:active,.hero__actions--github:active {
+.hero__actions--linkedin:active, .hero__actions--github:active {
 	transform: translateY(2px);
-
-.hero__actions--github {
 }
 
 .hero-image {
-	width: 600px;
-	height: 700px;
+	width: 900px;
+	height: auto;
 	border-radius: 8px;
+	overflow: hidden;
 }
