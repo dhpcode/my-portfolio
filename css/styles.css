@@ -465,7 +465,7 @@ select:-webkit-autofill:focus {
 	display: inline-block;
 	width: 26px;
 	height: 26px;
-	content: '';
+	content: "";
 	background-image: url("../images/card/bxl-github.svg.svg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -476,9 +476,61 @@ select:-webkit-autofill:focus {
 	display: inline-block;
 	width: 24px;
 	height: 24px;
-	content: '';
+	content: "";
 	background-image: url("../images/card/arrow.svg");
 	background-repeat: no-repeat;
 	background-position: center;
 	margin-left: 4px;
+}
+
+/* ABOUT ME */
+
+.about-me {
+	color: #fff;
+	border-bottom: 1px solid #484848;
+}
+
+.about-me-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 122px 0 400px 0;
+}
+.about-me-heading {
+	font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+	font-size: 101px;
+	font-weight: 400;
+	line-height: 90%;
+	margin: 0;
+}
+.about-me-info {
+	width: 704px;
+}
+.about-me-info-title {
+	margin-top: 0;
+	margin-bottom: 16px;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 140%;
+}
+.about-me-info-text {
+	margin-top: 0;
+	margin-bottom: 53px;
+	font-size: 18px;
+	line-height: 150%;
+}
+.about-me-info-link {
+	text-transform: uppercase;
+	color: #d3e97a;
+	padding-bottom: 4px;
+	text-decoration: none;
+	border-bottom: 2px solid #d3e97a;
+}
+
+.about-me-info-link:hover {
+	opacity: 0.8;
+}
+
+.about-me-info-link:active {
+	opacity: 0.8;
 }
