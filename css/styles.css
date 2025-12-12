@@ -334,6 +334,7 @@ select:-webkit-autofill:focus {
 
 .projects {
 	padding: 80px 0;
+	border-bottom: 1px solid #484848;
 }
 .projects-top {
 	margin-bottom: 80px;
@@ -352,34 +353,132 @@ select:-webkit-autofill:focus {
 	margin: 0;
 }
 .projects-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: #c7c7c7;
 }
 .projects-item {
+	display: flex;
+	gap: 48px;
+	height: 600px;
 }
-.card {
+.projects-item:not(:last-child) {
+	margin-bottom: 120px;
 }
+
 .projects-item-image {
+	width: 600px;
+	height: 600px;
+	padding: 126px 57px;
+	border-radius: 12px;
+	background-color: #1a1a1a;
+	overflow: hidden;
 }
 .projects-item-img {
+	display: block;
+	width: 486px;
+	height: 347px;
+	border: 2px solid #000;
+	border-radius: 12px;
+	transition: transform 0.5s ease;
+}
+
+.projects-item-img:hover {
+	transform: scale(1.02);
 }
 .projects-item-content {
+	width: 576px;
+	height: 600px;
+	padding: 60px 0;
 }
 .card-content {
 }
 .card-content-title {
+	font-size: 32px;
+	line-height: 140%;
+	font-weight: 500;
+	color: #fff;
+	margin-top: 0;
+	margin-bottom: 16px;
 }
 .card-content-text {
+	font-size: 18px;
+	line-height: 150%;
+	margin-top: 0;
+	margin-bottom: 32px;
 }
 .card-content-info-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 48px;
 }
 .card-content-info-item {
+	padding: 16px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #484848;
+	transition: background-color 0.3s ease;
+	cursor: pointer;
+}
+
+.card-content-info-item:hover {
+	background-color: #1a1a1a;
 }
 .content-info-title {
+	padding-top: 0;
+	font-size: 16px;
+	line-height: 150%;
+	text-transform: uppercase;
 }
-.content-info-year {
-}
-.content-info-role {
-}
+
 .card-content-links {
+	display: flex;
+	gap: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 150%;
 }
+
 .card-content-links-link {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	color: #d3e97a;
+	padding-bottom: 4px;
+	text-decoration: none;
+	border-bottom: 2px solid #d3e97a;
+}
+
+.card-content-links-link:hover {
+	opacity: 0.8;
+}
+
+.card-content-links-link:active {
+	opacity: 0.6;
+}
+
+.card-content-links-link:last-child::after {
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	content: '';
+	background-image: url("../images/card/bxl-github.svg.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 4px;
+}
+
+.card-content-links-link:first-child::after {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	content: '';
+	background-image: url("../images/card/arrow.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 4px;
 }
