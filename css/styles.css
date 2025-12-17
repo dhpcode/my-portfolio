@@ -266,9 +266,12 @@ select:-webkit-autofill:focus {
 	gap: 16px;
 	align-items: center;
 }
-.hero__actions--contact {
-	width: 165px;
-	height: 54px;
+.main-button {
+	/* width: 165px;
+	height: 54px; */
+	display: flex;
+	align-items: center;
+	gap: 25px;
 	font-weight: bold;
 	color: #0a0a0a;
 	text-transform: uppercase;
@@ -284,13 +287,13 @@ select:-webkit-autofill:focus {
 	user-select: none;
 }
 
-.hero__actions--contact:hover {
+.main-button:hover {
 	border: 2px solid #d3e97a;
 	background-color: transparent;
 	color: #d3e97a;
 }
 
-.hero__actions--contact:active {
+.main-button:active {
 	transform: translateY(2px);
 }
 .hero__actions--contact:hover .actions-contact-dot {
@@ -533,4 +536,120 @@ select:-webkit-autofill:focus {
 
 .about-me-info-link:active {
 	opacity: 0.8;
+}
+
+/* SITE FOOTER STYLES */
+
+.site-footer {
+	padding-top: 55px;
+	padding-bottom: 80px;
+}
+.site-footer-container {
+	display: flex;
+	gap: 24px;
+}
+.site-footer-socials {
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+}
+.site-footer-socials-title {
+	font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+	font-size: 76px;
+	line-height: 100%;
+	font-weight: 400;
+	color: #fff;
+	margin-top: 0;
+	margin-bottom: 16px;
+}
+.site-footer-socials-text {
+	font-size: 18px;
+	line-height: 150%;
+	color: #c7c7c7;
+}
+
+.site-footer-socials-text a {
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 1px solid #d3e97a;
+}
+
+.site-footer-socials-text a:hover {
+	opacity: 0.8;
+}
+
+.site-footer-socials-text a:active {
+	opacity: 0.6;
+}
+
+.site-footer-socials-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	gap: 24px;
+	/* flex-grow: 1; */
+}
+
+.site-footer-socials-link {
+	color: #d3e97a;
+	display: flex;
+	width: 32px;
+	height: 32px;
+}
+
+.site-footer-socials-link:hover {
+	opacity: 0.8;
+}
+.site-footer-socials-link:active {
+	opacity: 0.6;
+}
+.site-footer-socials-bottom {
+	font-size: 16px;
+	line-height: 160%;
+	color: #c7c7c7;
+	margin-top: auto;
+}
+.site-footer-form-content {
+	width: 600px;
+}
+.site-footer-form {
+	display: flex;
+	flex-direction: column;
+}
+.footer-form {
+}
+.footer-form-label {
+	font-size: 16px;
+	line-height: 160%;
+	color: #c7c7c7;
+	margin-bottom: 8px;
+}
+.footer-form-input {
+	display: inline-block;
+	border-radius: 4px;
+	padding: 12px 16px;
+	background-color: #1a1a1a;
+	color: #fff;
+	font-size: 18px;
+	line-height: 150%;
+	border: 1px solid transparent;
+	margin-bottom: 24px;
+	outline: none;
+}
+
+.footer-form-input:focus {
+	border-color: #484848;
+}
+
+.site-footer-textarea {
+	resize: none;
+	height: 156px;
+}
+
+.footer-form-button {
+	align-self: flex-start;
+	cursor: pointer;
+	padding: 19px 40px;
 }
