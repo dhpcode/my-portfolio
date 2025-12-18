@@ -719,6 +719,7 @@ select:-webkit-autofill:focus {
 	padding: 20px 40px;
 	border-radius: 32px;
 	cursor: pointer;
+	user-select: none;
 	transition: all 0.3s;
 }
 
