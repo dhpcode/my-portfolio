@@ -146,6 +146,45 @@ select:-webkit-autofill:focus {
 	margin-right: auto;
 }
 
+/* MAIN BUTTON */
+
+.main-button-and-links-wrapper {
+	display: flex;
+	gap: 16px;
+	align-items: center;
+}
+.main-button {
+	/* width: 165px;
+	height: 54px; */
+	display: flex;
+	align-items: center;
+	gap: 25px;
+	font-weight: bold;
+	color: #0a0a0a;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 0%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 19px 24px;
+	background-color: #d3e97a;
+	border-radius: 32px;
+	border: 2px solid transparent;
+	user-select: none;
+	cursor: pointer;
+}
+
+.main-button:hover {
+	border: 2px solid #d3e97a;
+	background-color: transparent;
+	color: #d3e97a;
+}
+
+.main-button:active {
+	transform: translateY(2px);
+}
+
 /* MAIN CONTENT */
 .main-content {
 	flex-grow: 1;
@@ -261,41 +300,6 @@ select:-webkit-autofill:focus {
 	margin-bottom: 40px;
 }
 
-.hero__actions {
-	display: flex;
-	gap: 16px;
-	align-items: center;
-}
-.main-button {
-	/* width: 165px;
-	height: 54px; */
-	display: flex;
-	align-items: center;
-	gap: 25px;
-	font-weight: bold;
-	color: #0a0a0a;
-	text-transform: uppercase;
-	text-decoration: none;
-	letter-spacing: 0%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 19px 24px;
-	background-color: #d3e97a;
-	border-radius: 32px;
-	border: 2px solid transparent;
-	user-select: none;
-}
-
-.main-button:hover {
-	border: 2px solid #d3e97a;
-	background-color: transparent;
-	color: #d3e97a;
-}
-
-.main-button:active {
-	transform: translateY(2px);
-}
 .hero__actions--contact:hover .actions-contact-dot {
 	background-color: #d3e97a;
 }
@@ -395,8 +399,7 @@ select:-webkit-autofill:focus {
 	height: 600px;
 	padding: 60px 0;
 }
-.card-content {
-}
+
 .card-content-title {
 	font-size: 32px;
 	line-height: 140%;
@@ -652,4 +655,127 @@ select:-webkit-autofill:focus {
 	align-self: flex-start;
 	cursor: pointer;
 	padding: 19px 40px;
+}
+
+/* ABOUT ME */
+.about-me-content-wrapper {
+	padding-top: 160px;
+	padding-bottom: 120px;
+}
+.about-me-image-wrapper {
+	height: 700px;
+	background-color: #c7c7c7;
+	border-radius: 16px;
+	display: flex;
+	justify-content: center;
+	align-self: flex-end;
+	margin-bottom: 40px;
+}
+
+.about-me-img {
+	display: block;
+	width: 464px;
+	/* height: 652px; */
+}
+
+/* Capabilities */
+
+.capabilities {
+	display: flex;
+	gap: 24px;
+	padding: 80px 0;
+}
+.capabilities-heading {
+	font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+	font-size: 76px;
+	line-height: 100%;
+	font-weight: 400;
+	margin: 0;
+	flex-grow: 1;
+}
+.capabilities-info {
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+}
+.capabilities-text {
+	margin-top: 0;
+	margin-bottom: 32px;
+	font-size: 18px;
+	line-height: 150%;
+}
+.capabilities-skills {
+	display: flex;
+	gap: 16px;
+	flex-wrap: wrap;
+}
+.capabilities-skills span {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+	color: #fff;
+	line-height: 100%;
+	border: 1px solid #484848;
+	padding: 20px 40px;
+	border-radius: 32px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.capabilities-skills span:hover {
+	background-color: #d3e97a;
+	color: #000;
+}
+
+/* EXPERIENCE */
+
+.experience {
+	padding: 80px 0;
+	color: #fff;
+	border-bottom: 1px solid #484848;
+}
+.experience-wrapper {
+	display: flex;
+	gap: 24px;
+}
+.experience-heading {
+	font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+	font-size: 76px;
+	line-height: 100%;
+	font-weight: 400;
+	margin: 0;
+	width: 600px;
+}
+
+.experience-list {
+	width: 600px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.experience-item:not(:last-child) {
+	margin-bottom: 80px;
+}
+.experience-item-title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 16px;
+}
+.experience-item-title-left {
+	margin: 0;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 130%;
+}
+.experience-item-time {
+	font-size: 18px;
+	line-height: 150%;
+	color: #c7c7c7;
+}
+.experience-item-text {
+	font-size: 18px;
+	line-height: 150%;
+	color: #c7c7c7;
+	margin: 0;
 }
