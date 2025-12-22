@@ -230,6 +230,27 @@ select:-webkit-autofill:focus {
 	opacity: 0.6;
 }
 
+/* Site header toggler */
+
+.site-header__toggler {
+	display: none;
+	padding: 0;
+	width: 44px;
+	height: 44px;
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+}
+.site-header__toggler-inner {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/icon-toggler.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
 .sitenav__list {
 	display: flex;
 	list-style: none;
@@ -779,4 +800,44 @@ select:-webkit-autofill:focus {
 	line-height: 150%;
 	color: #c7c7c7;
 	margin: 0;
+}
+
+@media screen and (max-width: 400px) {
+	.site-header__container {
+		position: relative;
+		max-width: 375px;
+		padding: 24px 16px;
+	}
+
+	
+.site-header__toggler {
+	display: block;
+}
+
+	.sitenav {
+		display: none;
+		width: 50%;
+	}
+
+	.site-header--open .sitenav {
+		display: block;
+		position: absolute;
+		top: 100%;
+		right: 0;
+	}
+
+	.sitenav__list {
+		flex-direction: column;
+		background-color: #222;
+		padding: 16px 0;
+	}
+	.sitenav__item:not(:last-child) {
+		margin-right: 0;
+		margin-bottom: 12px;
+	}
+	.sitenav__item {
+		width: 100%;
+		text-align: right;
+		padding-right: 16px;
+	}
 }

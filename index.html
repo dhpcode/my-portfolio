@@ -20,6 +20,12 @@
   <header class="site-header">
     <div class="site-header__container">
       <a class="site-header__name" href="index.html">Davron Parpiyev</a>
+
+      <!-- Toggler -->
+      <button class="site-header__toggler" type="button">
+        <span class="site-header__toggler-inner"></span>
+      </button>
+
       <!-- sitenav -->
       <nav class="site-header__sitenav sitenav">
         <ul class="sitenav__list">
@@ -31,259 +37,262 @@
     </div>
   </header>
 
-  <main class="main-content">
+  
+<main class="main-content">
 
-    <!-- HERO section -->
-    <section class="hero">
-      <div class="container">
-        <div class="hero__container">
-          <div class="hero__content">
-            <h1 class="hero__title">Salom, Men <br> Davron Parpiyev</h1>
-            <p class="hero__text">
-              Farg'ona shahrida yashovchi Front-End Developer, shuningdek dasturlashga qiziquvchi va intiluvchi,
-              ishtiyoqmand, ilg'or mutaxassis.
-            </p>
-            <div class="main-button-and-links-wrapper">
-              <a href="#connect" class="hero__actions--contact main-button">
-                <span>contact</span>
-                <span class="actions-contact-dot"></span>
-              </a>
-              <a href="https://www.linkedin.com/in/davron-parpiev-46346017a/" class="hero__actions--linkedin"
-                target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="none">
-                  <rect width="54" height="54" fill="currentColor" rx="27" />
-                  <path fill="#D3E97A"
-                    d="M19.398 21.797a2.37 2.37 0 1 0 0-4.74 2.37 2.37 0 0 0 0 4.74ZM24.007 23.593v13.15h4.083V30.24c0-1.716.323-3.378 2.45-3.378 2.099 0 2.125 1.962 2.125 3.487v6.396h4.085v-7.212c0-3.543-.763-6.265-4.903-6.265-1.988 0-3.32 1.09-3.866 2.123h-.055v-1.798h-3.92Zm-6.654 0h4.09v13.15h-4.09v-13.15Z" />
-                </svg>
-              </a>
-              <a href="https://github.com/dhpcode" class="hero__actions--github" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="none">
-                  <rect width="54" height="54" fill="currentColor" rx="27" />
-                  <path fill="#D3E97A" fill-rule="evenodd"
-                    d="M27.028 16.167c-5.968 0-10.805 4.837-10.805 10.805 0 4.773 3.095 8.824 7.39 10.254.54.097.735-.235.735-.521 0-.257-.009-.938-.012-1.838-3.006.652-3.641-1.45-3.641-1.45-.49-1.247-1.2-1.58-1.2-1.58-.98-.67.075-.655.075-.655 1.086.076 1.655 1.113 1.655 1.113.964 1.651 2.53 1.175 3.144.898.098-.698.38-1.175.688-1.445-2.399-.272-4.921-1.199-4.921-5.34 0-1.178.421-2.144 1.11-2.898-.11-.275-.484-1.374.107-2.86 0 0 .906-.292 2.97 1.106.881-.24 1.79-.363 2.704-.364.913.001 1.823.123 2.704.364 2.065-1.399 2.97-1.106 2.97-1.106.591 1.486.22 2.585.108 2.86.693.754 1.11 1.719 1.11 2.897 0 4.153-2.525 5.065-4.932 5.333.384.333.731.992.731 2 0 1.445-.013 2.61-.013 2.965 0 .289.193.625.744.519 4.293-1.433 7.384-5.48 7.384-10.252 0-5.968-4.837-10.805-10.805-10.805Z"
-                    clip-rule="evenodd" />
-                </svg>
-              </a>
-            </div>
-          </div>
-          <img class="hero-image" src="images/profile/image1.jpg" alt="Portfolio image">
-        </div>
-      </div>
-
-    </section>
-
-
-    <!-- PROJECTS  -->
-    <section class="projects">
-      <div class="container">
-        <div class="projects-top">
-          <h1 class="projects-heading">Featured Projects</h1>
-          <p class="projects-text">Here are some of the selected projects that showcase my passion for <br> front-end
-            development.</p>
-        </div>
-        <!-- Projects list -->
-        <ul class="projects-list">
-
-          <!-- Cards -->
-          <li class="projects-item card">
-            <div class="projects-item-image">
-              <img src="images/card/promotional-landpage.png" alt="Promotional landing page for our favorite show"
-                class="projects-item-img" width="486" height="347">
-            </div>
-            <div class="projects-item-content card-content">
-              <h3 class="card-content-title">Promotional landing page for our favorite show</h3>
-              <p class="card-content-text">
-                Teamed up with a designer to breathe life into a promotional webpage for our beloved show, Adventure
-                Time.
-                Delivered a fully responsive design with dynamic content capabilities, seamlessly integrating a
-                newsletter
-                feature to keep fans updated with the latest adventures.
-              </p>
-              <ul class="card-content-info-list">
-                <li class="card-content-info-item content-info-title">Project info</li>
-                <li class="card-content-info-item content-info-year">
-                  <span>Year</span>
-                  <span>2023</span>
-                </li>
-                <li class="card-content-info-item content-info-role">
-                  <span>Role</span>
-                  <span>Front-end Developer</span>
-                </li>
-              </ul>
-              <div class="card-content-links">
-                <a href="#" class="card-content-links-link">Live Demo</a>
-                <a href="#" class="card-content-links-link">See on github</a>
-              </div>
-            </div>
-          </li>
-
-          <li class="projects-item card">
-            <div class="projects-item-image">
-              <img src="images/card/world news.png" alt="Promotional landing page for our favorite show"
-                class="projects-item-img" width="486" height="347">
-            </div>
-            <div class="projects-item-content card-content">
-              <h3 class="card-content-title">Blog site for World News</h3>
-              <p class="card-content-text">
-                Mastered CSS Grid complexities in building an innovative news homepage, navigating intricate design
-                decisions for a seamless user experience. Leveraged the challenge to enhance skills in front-end
-                development.
-              </p>
-              <ul class="card-content-info-list">
-                <li class="card-content-info-item content-info-title">Project info</li>
-                <li class="card-content-info-item content-info-client">
-                  <span>Client</span>
-                  <span>World News</span>
-                </li>
-                <li class="card-content-info-item content-info-year">
-                  <span>Year</span>
-                  <span>2022</span>
-                </li>
-                <li class="card-content-info-item content-info-role">
-                  <span>Role</span>
-                  <span>Front-end Developer</span>
-                </li>
-              </ul>
-              <div class="card-content-links">
-                <a href="#" class="card-content-links-link">View Project</a>
-              </div>
-            </div>
-          </li>
-
-          <li class="projects-item card">
-            <div class="projects-item-image">
-              <img src="images/card/e-commerse.png" alt="Promotional landing page for our favorite show"
-                class="projects-item-img" width="486" height="347">
-            </div>
-            <div class="projects-item-content card-content">
-              <h3 class="card-content-title">E-commerce product page</h3>
-              <p class="card-content-text">
-                Successfully crafted an engaging product page featuring a dynamic lightbox gallery and seamless cart
-                functionality, showcasing proficiency in JavaScript development.
-              </p>
-              <ul class="card-content-info-list">
-                <li class="card-content-info-item content-info-title">Project info</li>
-                <li class="card-content-info-item content-info-year">
-                  <span>Year</span>
-                  <span>2022</span>
-                </li>
-                <li class="card-content-info-item content-info-role">
-                  <span>Role</span>
-                  <span>Front-end Developer</span>
-                </li>
-              </ul>
-              <div class="card-content-links">
-                <a href="https://dvr-ecommerce-project.netlify.app/" class="card-content-links-link"
-                  target="_blank">Live Demo</a>
-                <a href="https://github.com/dhpcode/ecommerce-product-page" class="card-content-links-link"
-                  target="_blank">See on github</a>
-              </div>
-            </div>
-          </li>
-
-        </ul>
-      </div>
-    </section>
-
-    <!-- ABOUT ME -->
-    <section class="about-me">
-      <div class="container">
-        <div class="about-me-container">
-          <h1 class="about-me-heading">
-            About me
-          </h1>
-          <div class="about-me-info">
-            <h3 class="about-me-info-title">I am a front-end developer based in Fergana, UZB. Has Data Analyst
-              background.</h3>
-            <p class="about-me-info-text">I am a front-end developer based in Fergana looking for exciting
-              opportunities. Has Data Analyst background. Likes to focus on accessibility when developing. Passionate
-              and curious about solving problems. Currently, I’m exploring Reactjs, Webflow and a bit of Designing.
-              While I am not programming, I enjoy playing football, photography and playing Valorant. Learning more to
-              improve skill.</p>
-            <a href="about-me.html" class="about-me-info-link">More about me</a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- FOOTER -->
-  <footer class="site-footer" id="connect">
+  <!-- HERO section -->
+  <section class="hero">
     <div class="container">
-      <div class="site-footer-container">
-        <div class="site-footer-socials">
-          <h1 class="site-footer-socials-title">Let's connect</h1>
-          <p class="site-footer-socials-text">Say hello at <a href="#">davrsirius@gmail.com</a> <br>
-            For more info, here’s my <a href="#">resume</a>
+      <div class="hero__container">
+        <div class="hero__content">
+          <h1 class="hero__title">Salom, Men <br> Davron Parpiyev</h1>
+          <p class="hero__text">
+            Farg'ona shahrida yashovchi Front-End Developer, shuningdek dasturlashga qiziquvchi va intiluvchi,
+            ishtiyoqmand, ilg'or mutaxassis.
           </p>
-
-          <!-- Site footer socials list -->
-          <ul class="site-footer-socials-list">
-            <li class="site-footer-socials-item">
-              <a href="https://www.linkedin.com/in/davron-parpiev-46346017a/" class="site-footer-socials-link" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none">
-                  <path fill="currentColor"
-                    d="M6.644 9.596a2.917 2.917 0 1 0 0-5.835 2.917 2.917 0 0 0 0 5.835ZM12.316 11.807v16.185h5.025v-8.004c0-2.112.398-4.157 3.016-4.157 2.583 0 2.615 2.414 2.615 4.29v7.872H28v-8.876c0-4.36-.939-7.71-6.035-7.71-2.446 0-4.086 1.342-4.757 2.613h-.068v-2.213h-4.824Zm-8.19 0H9.16v16.185H4.127V11.807Z" />
-                </svg></a>
-            </li>
-
-            <li class="site-footer-socials-item">
-              <a href="https://github.com/dhpcode" class="site-footer-socials-link" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none">
-                  <path fill="currentColor" fill-rule="evenodd"
-                    d="M16.035 2.667c-7.346 0-13.299 5.953-13.299 13.298 0 5.875 3.81 10.86 9.095 12.62.665.12.905-.289.905-.641 0-.316-.01-1.153-.015-2.261-3.7.802-4.481-1.784-4.481-1.784-.603-1.536-1.476-1.946-1.476-1.946-1.207-.825.092-.806.092-.806 1.336.093 2.036 1.37 2.036 1.37 1.187 2.032 3.115 1.446 3.87 1.106.12-.86.467-1.447.846-1.779-2.952-.335-6.056-1.476-6.056-6.573 0-1.45.519-2.639 1.365-3.567-.134-.337-.594-1.69.132-3.52 0 0 1.116-.359 3.656 1.361a12.776 12.776 0 0 1 3.328-.448c1.125.002 2.244.153 3.328.448 2.542-1.721 3.656-1.361 3.656-1.361.727 1.83.271 3.183.132 3.52.854.928 1.366 2.116 1.366 3.567 0 5.11-3.107 6.233-6.07 6.562.474.411.9 1.222.9 2.462 0 1.778-.016 3.213-.016 3.649 0 .356.238.77.916.639 5.283-1.763 9.088-6.744 9.088-12.618 0-7.345-5.953-13.298-13.298-13.298Z"
-                    clip-rule="evenodd" />
-                </svg>
-              </a>
-            </li>
-
-            <li class="site-footer-socials-item">
-              <a href="#" class="site-footer-socials-link" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none">
-                  <path fill="currentColor"
-                    d="M24.04 4.667h4.273l-9.333 9.62L30 27.333h-8.659l-6.747-7.908-7.759 7.908H2.562L12.57 17.058 2 4.667h8.883l6.129 7.253 7.028-7.253Zm-1.518 20.35h2.362L9.59 6.832H7.004l15.518 18.183Z" />
-                </svg>
-              </a>
-            </li>
-
-            <li class="site-footer-socials-item">
-              <a href="#" class="site-footer-socials-link" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none">
-                  <path fill="currentColor"
-                    d="M15.999 9.836a6.165 6.165 0 1 0 0 12.33 6.165 6.165 0 0 0 0-12.33Zm0 10.17a4.005 4.005 0 1 1 0-8.011 4.005 4.005 0 0 1 0 8.01ZM22.408 11.047a1.437 1.437 0 1 0 0-2.875 1.437 1.437 0 0 0 0 2.875Z" />
-                  <path fill="currentColor"
-                    d="M27.377 8.148a6.138 6.138 0 0 0-3.51-3.51 8.809 8.809 0 0 0-2.915-.56c-1.284-.055-1.69-.071-4.947-.071-3.256 0-3.673 0-4.946.072-.996.02-1.98.208-2.912.56a6.133 6.133 0 0 0-3.511 3.509 8.78 8.78 0 0 0-.559 2.915c-.057 1.282-.074 1.689-.074 4.946 0 3.256 0 3.671.074 4.947.02.997.208 1.981.559 2.916a6.146 6.146 0 0 0 3.512 3.51c.93.364 1.915.566 2.913.6 1.284.055 1.691.073 4.947.073 3.256 0 3.673 0 4.947-.074a8.818 8.818 0 0 0 2.914-.558 6.151 6.151 0 0 0 3.511-3.511c.35-.933.539-1.917.559-2.915.057-1.282.074-1.689.074-4.946 0-3.258 0-3.671-.074-4.947a8.777 8.777 0 0 0-.562-2.956Zm-1.624 12.71a6.725 6.725 0 0 1-.414 2.25 3.984 3.984 0 0 1-2.283 2.281 6.646 6.646 0 0 1-2.227.415c-1.266.059-1.624.073-4.872.073-3.25 0-3.582 0-4.873-.073a6.613 6.613 0 0 1-2.225-.415 3.98 3.98 0 0 1-2.292-2.281 6.774 6.774 0 0 1-.415-2.225c-.057-1.267-.07-1.624-.07-4.872 0-3.25 0-3.582.07-4.874a6.717 6.717 0 0 1 .415-2.249 3.982 3.982 0 0 1 2.292-2.283 6.68 6.68 0 0 1 2.225-.414c1.268-.058 1.624-.074 4.873-.074 3.25 0 3.583 0 4.872.074.76.009 1.514.15 2.227.414a3.988 3.988 0 0 1 2.283 2.283c.262.713.402 1.466.414 2.225.058 1.268.072 1.624.072 4.874 0 3.248 0 3.597-.057 4.872h-.015v-.002Z" />
-                </svg>
-              </a>
-            </li>
-
-          </ul>
-
-          <p class="site-footer-socials-bottom">
-            &#169; Davron Parpiyev
-          </p>
+          <div class="main-button-and-links-wrapper">
+            <a href="#connect" class="hero__actions--contact main-button">
+              <span>contact</span>
+              <span class="actions-contact-dot"></span>
+            </a>
+            <a href="https://www.linkedin.com/in/davron-parpiev-46346017a/" class="hero__actions--linkedin"
+              target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="none">
+                <rect width="54" height="54" fill="currentColor" rx="27" />
+                <path fill="#D3E97A"
+                  d="M19.398 21.797a2.37 2.37 0 1 0 0-4.74 2.37 2.37 0 0 0 0 4.74ZM24.007 23.593v13.15h4.083V30.24c0-1.716.323-3.378 2.45-3.378 2.099 0 2.125 1.962 2.125 3.487v6.396h4.085v-7.212c0-3.543-.763-6.265-4.903-6.265-1.988 0-3.32 1.09-3.866 2.123h-.055v-1.798h-3.92Zm-6.654 0h4.09v13.15h-4.09v-13.15Z" />
+              </svg>
+            </a>
+            <a href="https://github.com/dhpcode" class="hero__actions--github" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="none">
+                <rect width="54" height="54" fill="currentColor" rx="27" />
+                <path fill="#D3E97A" fill-rule="evenodd"
+                  d="M27.028 16.167c-5.968 0-10.805 4.837-10.805 10.805 0 4.773 3.095 8.824 7.39 10.254.54.097.735-.235.735-.521 0-.257-.009-.938-.012-1.838-3.006.652-3.641-1.45-3.641-1.45-.49-1.247-1.2-1.58-1.2-1.58-.98-.67.075-.655.075-.655 1.086.076 1.655 1.113 1.655 1.113.964 1.651 2.53 1.175 3.144.898.098-.698.38-1.175.688-1.445-2.399-.272-4.921-1.199-4.921-5.34 0-1.178.421-2.144 1.11-2.898-.11-.275-.484-1.374.107-2.86 0 0 .906-.292 2.97 1.106.881-.24 1.79-.363 2.704-.364.913.001 1.823.123 2.704.364 2.065-1.399 2.97-1.106 2.97-1.106.591 1.486.22 2.585.108 2.86.693.754 1.11 1.719 1.11 2.897 0 4.153-2.525 5.065-4.932 5.333.384.333.731.992.731 2 0 1.445-.013 2.61-.013 2.965 0 .289.193.625.744.519 4.293-1.433 7.384-5.48 7.384-10.252 0-5.968-4.837-10.805-10.805-10.805Z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
         </div>
-        <div class="site-footer-form-content">
-          <form class="site-footer-form footer-form">
-            <label class="footer-form-label" for="footer-form-input-name">Name</label>
-            <input type="text" class="footer-form-input" id="footer-form-input-name" placeholder="John Doe">
+        <img class="hero-image" src="images/profile/image1.jpg" alt="Portfolio image">
+      </div>
+    </div>
 
-            <label class="footer-form-label" for="footer-form-input-email">Email</label>
-            <input type="email" class="footer-form-input" id="footer-form-input-email">
+  </section>
 
-            <label class="footer-form-label" for="footer-form-input-subject">Subject</label>
-            <input type="text" class="footer-form-input" id="footer-form-input-subject">
 
-            <label class="footer-form-label" for="footer-form-input-message">Message</label>
-            <textarea class="footer-form-input site-footer-textarea" name="message" id="footer-form-input-message"></textarea>
+  <!-- PROJECTS  -->
+  <section class="projects">
+    <div class="container">
+      <div class="projects-top">
+        <h1 class="projects-heading">Featured Projects</h1>
+        <p class="projects-text">Here are some of the selected projects that showcase my passion for <br> front-end
+          development.</p>
+      </div>
+      <!-- Projects list -->
+      <ul class="projects-list">
 
-            <button class="footer-form-button button main-button" type="submit">Submit</button>
+        <!-- Cards -->
+        <li class="projects-item card">
+          <div class="projects-item-image">
+            <img src="images/card/promotional-landpage.png" alt="Promotional landing page for our favorite show"
+              class="projects-item-img" width="486" height="347">
+          </div>
+          <div class="projects-item-content card-content">
+            <h3 class="card-content-title">Promotional landing page for our favorite show</h3>
+            <p class="card-content-text">
+              Teamed up with a designer to breathe life into a promotional webpage for our beloved show, Adventure
+              Time.
+              Delivered a fully responsive design with dynamic content capabilities, seamlessly integrating a
+              newsletter
+              feature to keep fans updated with the latest adventures.
+            </p>
+            <ul class="card-content-info-list">
+              <li class="card-content-info-item content-info-title">Project info</li>
+              <li class="card-content-info-item content-info-year">
+                <span>Year</span>
+                <span>2023</span>
+              </li>
+              <li class="card-content-info-item content-info-role">
+                <span>Role</span>
+                <span>Front-end Developer</span>
+              </li>
+            </ul>
+            <div class="card-content-links">
+              <a href="#" class="card-content-links-link">Live Demo</a>
+              <a href="#" class="card-content-links-link">See on github</a>
+            </div>
+          </div>
+        </li>
 
-          </form>
+        <li class="projects-item card">
+          <div class="projects-item-image">
+            <img src="images/card/world news.png" alt="Promotional landing page for our favorite show"
+              class="projects-item-img" width="486" height="347">
+          </div>
+          <div class="projects-item-content card-content">
+            <h3 class="card-content-title">Blog site for World News</h3>
+            <p class="card-content-text">
+              Mastered CSS Grid complexities in building an innovative news homepage, navigating intricate design
+              decisions for a seamless user experience. Leveraged the challenge to enhance skills in front-end
+              development.
+            </p>
+            <ul class="card-content-info-list">
+              <li class="card-content-info-item content-info-title">Project info</li>
+              <li class="card-content-info-item content-info-client">
+                <span>Client</span>
+                <span>World News</span>
+              </li>
+              <li class="card-content-info-item content-info-year">
+                <span>Year</span>
+                <span>2022</span>
+              </li>
+              <li class="card-content-info-item content-info-role">
+                <span>Role</span>
+                <span>Front-end Developer</span>
+              </li>
+            </ul>
+            <div class="card-content-links">
+              <a href="#" class="card-content-links-link">View Project</a>
+            </div>
+          </div>
+        </li>
+
+        <li class="projects-item card">
+          <div class="projects-item-image">
+            <img src="images/card/e-commerse.png" alt="Promotional landing page for our favorite show"
+              class="projects-item-img" width="486" height="347">
+          </div>
+          <div class="projects-item-content card-content">
+            <h3 class="card-content-title">E-commerce product page</h3>
+            <p class="card-content-text">
+              Successfully crafted an engaging product page featuring a dynamic lightbox gallery and seamless cart
+              functionality, showcasing proficiency in JavaScript development.
+            </p>
+            <ul class="card-content-info-list">
+              <li class="card-content-info-item content-info-title">Project info</li>
+              <li class="card-content-info-item content-info-year">
+                <span>Year</span>
+                <span>2022</span>
+              </li>
+              <li class="card-content-info-item content-info-role">
+                <span>Role</span>
+                <span>Front-end Developer</span>
+              </li>
+            </ul>
+            <div class="card-content-links">
+              <a href="https://dvr-ecommerce-project.netlify.app/" class="card-content-links-link"
+                target="_blank">Live Demo</a>
+              <a href="https://github.com/dhpcode/ecommerce-product-page" class="card-content-links-link"
+                target="_blank">See on github</a>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+  <!-- ABOUT ME -->
+  <section class="about-me">
+    <div class="container">
+      <div class="about-me-container">
+        <h1 class="about-me-heading">
+          About me
+        </h1>
+        <div class="about-me-info">
+          <h3 class="about-me-info-title">I am a front-end developer based in Fergana, UZB. Has Data Analyst
+            background.</h3>
+          <p class="about-me-info-text">I am a front-end developer based in Fergana looking for exciting
+            opportunities. Has Data Analyst background. Likes to focus on accessibility when developing. Passionate
+            and curious about solving problems. Currently, I’m exploring Reactjs, Webflow and a bit of Designing.
+            While I am not programming, I enjoy playing football, photography and playing Valorant. Learning more to
+            improve skill.</p>
+          <a href="about-me.html" class="about-me-info-link">More about me</a>
         </div>
       </div>
     </div>
-  </footer>
+  </section>
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer" id="connect">
+  <div class="container">
+    <div class="site-footer-container">
+      <div class="site-footer-socials">
+        <h1 class="site-footer-socials-title">Let's connect</h1>
+        <p class="site-footer-socials-text">Say hello at <a href="#">davrsirius@gmail.com</a> <br>
+          For more info, here’s my <a href="#">resume</a>
+        </p>
+
+        <!-- Site footer socials list -->
+        <ul class="site-footer-socials-list">
+          <li class="site-footer-socials-item">
+            <a href="https://www.linkedin.com/in/davron-parpiev-46346017a/" class="site-footer-socials-link" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none">
+                <path fill="currentColor"
+                  d="M6.644 9.596a2.917 2.917 0 1 0 0-5.835 2.917 2.917 0 0 0 0 5.835ZM12.316 11.807v16.185h5.025v-8.004c0-2.112.398-4.157 3.016-4.157 2.583 0 2.615 2.414 2.615 4.29v7.872H28v-8.876c0-4.36-.939-7.71-6.035-7.71-2.446 0-4.086 1.342-4.757 2.613h-.068v-2.213h-4.824Zm-8.19 0H9.16v16.185H4.127V11.807Z" />
+              </svg></a>
+          </li>
+
+          <li class="site-footer-socials-item">
+            <a href="https://github.com/dhpcode" class="site-footer-socials-link" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none">
+                <path fill="currentColor" fill-rule="evenodd"
+                  d="M16.035 2.667c-7.346 0-13.299 5.953-13.299 13.298 0 5.875 3.81 10.86 9.095 12.62.665.12.905-.289.905-.641 0-.316-.01-1.153-.015-2.261-3.7.802-4.481-1.784-4.481-1.784-.603-1.536-1.476-1.946-1.476-1.946-1.207-.825.092-.806.092-.806 1.336.093 2.036 1.37 2.036 1.37 1.187 2.032 3.115 1.446 3.87 1.106.12-.86.467-1.447.846-1.779-2.952-.335-6.056-1.476-6.056-6.573 0-1.45.519-2.639 1.365-3.567-.134-.337-.594-1.69.132-3.52 0 0 1.116-.359 3.656 1.361a12.776 12.776 0 0 1 3.328-.448c1.125.002 2.244.153 3.328.448 2.542-1.721 3.656-1.361 3.656-1.361.727 1.83.271 3.183.132 3.52.854.928 1.366 2.116 1.366 3.567 0 5.11-3.107 6.233-6.07 6.562.474.411.9 1.222.9 2.462 0 1.778-.016 3.213-.016 3.649 0 .356.238.77.916.639 5.283-1.763 9.088-6.744 9.088-12.618 0-7.345-5.953-13.298-13.298-13.298Z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+          </li>
+
+          <li class="site-footer-socials-item">
+            <a href="#" class="site-footer-socials-link" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none">
+                <path fill="currentColor"
+                  d="M24.04 4.667h4.273l-9.333 9.62L30 27.333h-8.659l-6.747-7.908-7.759 7.908H2.562L12.57 17.058 2 4.667h8.883l6.129 7.253 7.028-7.253Zm-1.518 20.35h2.362L9.59 6.832H7.004l15.518 18.183Z" />
+              </svg>
+            </a>
+          </li>
+
+          <li class="site-footer-socials-item">
+            <a href="#" class="site-footer-socials-link" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none">
+                <path fill="currentColor"
+                  d="M15.999 9.836a6.165 6.165 0 1 0 0 12.33 6.165 6.165 0 0 0 0-12.33Zm0 10.17a4.005 4.005 0 1 1 0-8.011 4.005 4.005 0 0 1 0 8.01ZM22.408 11.047a1.437 1.437 0 1 0 0-2.875 1.437 1.437 0 0 0 0 2.875Z" />
+                <path fill="currentColor"
+                  d="M27.377 8.148a6.138 6.138 0 0 0-3.51-3.51 8.809 8.809 0 0 0-2.915-.56c-1.284-.055-1.69-.071-4.947-.071-3.256 0-3.673 0-4.946.072-.996.02-1.98.208-2.912.56a6.133 6.133 0 0 0-3.511 3.509 8.78 8.78 0 0 0-.559 2.915c-.057 1.282-.074 1.689-.074 4.946 0 3.256 0 3.671.074 4.947.02.997.208 1.981.559 2.916a6.146 6.146 0 0 0 3.512 3.51c.93.364 1.915.566 2.913.6 1.284.055 1.691.073 4.947.073 3.256 0 3.673 0 4.947-.074a8.818 8.818 0 0 0 2.914-.558 6.151 6.151 0 0 0 3.511-3.511c.35-.933.539-1.917.559-2.915.057-1.282.074-1.689.074-4.946 0-3.258 0-3.671-.074-4.947a8.777 8.777 0 0 0-.562-2.956Zm-1.624 12.71a6.725 6.725 0 0 1-.414 2.25 3.984 3.984 0 0 1-2.283 2.281 6.646 6.646 0 0 1-2.227.415c-1.266.059-1.624.073-4.872.073-3.25 0-3.582 0-4.873-.073a6.613 6.613 0 0 1-2.225-.415 3.98 3.98 0 0 1-2.292-2.281 6.774 6.774 0 0 1-.415-2.225c-.057-1.267-.07-1.624-.07-4.872 0-3.25 0-3.582.07-4.874a6.717 6.717 0 0 1 .415-2.249 3.982 3.982 0 0 1 2.292-2.283 6.68 6.68 0 0 1 2.225-.414c1.268-.058 1.624-.074 4.873-.074 3.25 0 3.583 0 4.872.074.76.009 1.514.15 2.227.414a3.988 3.988 0 0 1 2.283 2.283c.262.713.402 1.466.414 2.225.058 1.268.072 1.624.072 4.874 0 3.248 0 3.597-.057 4.872h-.015v-.002Z" />
+              </svg>
+            </a>
+          </li>
+
+        </ul>
+
+        <p class="site-footer-socials-bottom">
+          &#169; Davron Parpiyev
+        </p>
+      </div>
+      <div class="site-footer-form-content">
+        <form class="site-footer-form footer-form">
+          <label class="footer-form-label" for="footer-form-input-name">Name</label>
+          <input type="text" class="footer-form-input" id="footer-form-input-name" placeholder="John Doe">
+
+          <label class="footer-form-label" for="footer-form-input-email">Email</label>
+          <input type="email" class="footer-form-input" id="footer-form-input-email">
+
+          <label class="footer-form-label" for="footer-form-input-subject">Subject</label>
+          <input type="text" class="footer-form-input" id="footer-form-input-subject">
+
+          <label class="footer-form-label" for="footer-form-input-message">Message</label>
+          <textarea class="footer-form-input site-footer-textarea" name="message" id="footer-form-input-message"></textarea>
+
+          <button class="footer-form-button button main-button" type="submit">Submit</button>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
   <script src="js/main.js"></script>
 </body>
 
