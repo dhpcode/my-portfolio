@@ -333,7 +333,7 @@ select:-webkit-autofill:focus {
 }
 .hero__actions--linkedin,
 .hero__actions--github {
-	display: block;
+	display: flex;
 	color: #222;
 }
 .hero__actions--linkedin:hover,
@@ -809,10 +809,9 @@ select:-webkit-autofill:focus {
 		padding: 24px 16px;
 	}
 
-	
-.site-header__toggler {
-	display: block;
-}
+	.site-header__toggler {
+		display: block;
+	}
 
 	.sitenav {
 		display: none;
@@ -839,5 +838,95 @@ select:-webkit-autofill:focus {
 		width: 100%;
 		text-align: right;
 		padding-right: 16px;
+	}
+
+	/* Container */
+	.container {
+		max-width: 343px;
+		padding-left: 0;
+		padding-right: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/* Hero section */
+
+	.hero {
+		border-bottom: 1px solid #484848;
+	}
+
+	.hero__container {
+		flex-direction: column;
+		gap: 64px;
+		color: #c7c7c7;
+		padding-top: 40px;
+		padding-bottom: 64px;
+	}
+
+	.hero__content {
+		width: 100%;
+		padding: 0;
+	}
+	.hero__title {
+		font-size: 57px;
+		line-height: 100%;
+		margin-bottom: 12px;
+	}
+	.hero__text {
+		font-size: 16px;
+		line-height: 160%;
+		margin-top: 0;
+		margin-bottom: 32px;
+	}
+
+	.actions-contact-dot {
+		display: none;
+	}
+
+	.hero__actions--contact::after {
+		display: inline-block;
+		width: 40px;
+		height: 40px;
+		content: "";
+		background-image: url("../images/icon-circled-arrow.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+	.main-button {
+		gap: 12px;
+		font-size: 14px;
+		padding: 4px 5px 4px 16px;
+	}
+
+	.hero__actions--linkedin,
+	.hero__actions--github {
+		width: 48px;
+		height: 48px;
+	}
+
+	.hero__actions--linkedin svg,
+	.hero__actions--github svg {
+		display: none;
+	}
+
+	.hero__actions--linkedin {
+		background-image: url("../images/mobile/icon-linkedin-small.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		object-fit: cover;
+	}
+	.hero__actions--github {
+		background-image: url("../images/mobile/icon-github-small.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		object-fit: cover;
+	}
+
+	.hero-image {
+		display: block;
+		width: 100%;
+		height: auto;
 	}
 }
