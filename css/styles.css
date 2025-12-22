@@ -929,4 +929,79 @@ select:-webkit-autofill:focus {
 		width: 100%;
 		height: auto;
 	}
+
+	/* PROJECTS */
+
+	.projects {
+		padding: 64px 0;
+	}
+	.projects-top {
+		margin-bottom: 64px;
+	}
+	.projects-heading {
+		font-size: 43px;
+		line-height: -2%;
+		margin-bottom: 12px;
+	}
+	.projects-text {
+		color: #c7c7c7;
+		margin: 0;
+		font-size: 16px;
+		line-height: 160%;
+	}
+
+	.projects-list {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		color: #c7c7c7;
+	}
+	.projects-item {
+		flex-direction: column;
+		gap: 40px;
+		width: 100%;
+		height: auto;
+	}
+	.projects-item:not(:last-child) {
+		margin-bottom: 96px;
+	}
+
+	.projects-item-image {
+		width: 100%;
+		height: auto;
+		padding: 50px 25px;
+		width: 343px;
+		height: 343px;
+	}
+	.projects-item-img {
+		width: 393px;
+		height: 243px;
+	}
+
+	.projects-item-content {
+		width: 100%;
+		height: auto;
+		padding: 0;
+	}
+
+	.card-content-title {
+		font-size: 24px;
+		line-height: 140%;
+	}
+	.card-content-text {
+		font-size: 16px;
+		line-height: 160%;
+	}
+	.card-content-info-list {
+		margin-bottom: 40px;
+	}
+	.card-content-info-item {
+		font-size: 16px;
+		line-height: 160%;
+	}
+
+	.content-info-title {
+		font-weight: 600;
+	}
+
 }
