@@ -1112,6 +1112,7 @@ only screen and (min-resolution: 2dppx) {}
 	.about-me-info-image img {
 		width: 100%;
 		display: block;
+		border-radius: 12px;
 	}
 
 
