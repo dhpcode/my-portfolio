@@ -562,6 +562,10 @@ select:-webkit-autofill:focus {
 	opacity: 0.8;
 }
 
+.about-me-info-image {
+	display: none;
+}
+
 /* SITE FOOTER STYLES */
 
 .site-footer {
@@ -1003,5 +1007,45 @@ select:-webkit-autofill:focus {
 	.content-info-title {
 		font-weight: 600;
 	}
+
+
+/* ABOUT ME */
+
+
+.about-me-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 0 0 16px 0;
+}
+.about-me-heading {
+	display: none;
+}
+.about-me-info {
+	width: 100%;
+}
+.about-me-info-title {
+	display: none;
+}
+.about-me-info-text {
+	margin-bottom: 24px;
+	text-align: justify;
+}
+.about-me-info-link {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 150%;
+}
+
+.about-me-info-image {
+	display: block;
+	padding-top: 64px;
+	padding-bottom: 16px;
+}
+
+.about-me-info-image img {
+	width: 100%;
+	display: block;
+}
 
 }
